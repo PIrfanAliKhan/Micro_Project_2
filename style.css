@@ -1,0 +1,166 @@
+body {
+  margin: 0%;
+}
+nav {
+  position: fixed;
+  z-index: 999;
+
+  width: 100%;
+  height: 40px;
+  background-color: #6f6af7;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px;
+  color: #fff;
+}
+
+nav .logo {
+  font-size: 45px;
+}
+
+nav .nav-links {
+  display: flex;
+  align-items: center;
+  gap: 45px;
+  font-size: 20px;
+}
+
+nav .search {
+  align-items: center;
+  background-color: white;
+  padding: 10px;
+  border-radius: 30px;
+}
+
+nav input {
+  border: none;
+}
+
+nav .menu-icon {
+  font-size: 45px;
+  margin-top: 1px;
+  margin-right: 120px;
+    float:right;
+    color: #f2f2f2;
+}
+
+.icons{
+position: fixed;
+z-index: 999;
+width: 50px;
+height: 50px;
+right: 0%;
+top: 150px;
+
+
+}
+
+mid1 {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+.mid1 img {
+  position: absolute;
+  width: 350px;
+  height: 400px;
+  left: 90px;
+  top: 160px;
+  background: url(image.png);
+  border-radius: 20px;
+}
+.boxes {
+  position: absolute;
+  width: 650px;
+  height: 290px;
+  left: 500px;
+  top: 160px;
+  background: #e5d8ff;
+  border: 6px solid #ffffff;
+  box-shadow: inset 3px 5px 27px rgba(0, 0, 0, 0.25);
+  border-radius: 20px;
+  padding: 50px;
+}
+.mid1 p {
+  font-style: normal;
+  font-size: 20px;
+  color: #6f7373;
+}
+.box {
+  color: #ffffff;
+  text-align: center;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+.box1 {
+  position: absolute;
+  width: 250px;
+  height: 100px;
+  left: 85px;
+  top: 650px;
+  
+  background: #929dff;
+  border-radius: 11px;
+}
+.box2 {
+  position: absolute;
+  width: 250px;
+  height: 100px;
+  left: 385px;
+  top: 650px;
+  background: #734cf2;
+  border-radius: 11px;
+}
+.box3 {
+  position: absolute;
+  width: 250px;
+  height: 100px;
+  left: 685px;
+  top: 650px;
+  background: #d288ff;
+  border-radius: 11px;
+}
+.box4 {
+  position: absolute;
+  width: 250px;
+  height: 100px;
+  left: 985px;
+  top: 650px;
+  background: #000000;
+  border-radius: 11px;
+}
+.last {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  position: absolute;
+  width: 1200px;
+  height: 450px;
+  left: 90px;
+  top: 850px;
+  background: #483eff;
+  border-radius: 21px;
+
+}
+.next{
+position: absolute;
+width: 100px;
+height: 45px;
+right: 100px;
+top: 350px;
+
+background: #000000;
+border-radius: 9px;
+
+}
+.help-icon{
+  /* Group 2 */
+
+position: fixed;
+right: 100px;
+bottom: 0%;
+
+
+}
